@@ -1,0 +1,214 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #ee9ca7, #ff758c);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 5px solid #ffb6c1;
+}
+
+nav {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #ee9ca7;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: #ee9ca7;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background: linear-gradient(to right, #ff758c, #ee9ca7);
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    background: #f9c5d1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content {
+    width: 75%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.main-section {
+    text-align: center;
+    background: #ffdde1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-grid {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.news-item {
+    background: linear-gradient(to right, #ee9ca7, #ff758c);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.news-item:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background: linear-gradient(to right, #ee9ca7, #ff758c);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid #ffb6c1;
+}
+
+#formWA {
+    background-color: #fff;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  #formWA label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #formWA input,
+  #formWA textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  #formWA input:focus,
+  #formWA textarea:focus {
+    border-color: #25D366;
+    outline: none;
+    box-shadow: 0 0 4px rgba(37, 211, 102, 0.3);
+  }
+  
+  #formWA button {
+    background-color: #25D366;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #formWA button:hover {
+    background-color: #1ebe5d;
+  }
+
+
+  /* Style umum untuk home dan contact */
+.home,
+.contact {
+  background-color: #f0f0f0; /* Warna background sama */
+  padding: 50px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Judul utama */
+.home h1,
+.contact h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Paragraf */
+.home p,
+.contact p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* Form di contact */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: #333;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #555;
+}
